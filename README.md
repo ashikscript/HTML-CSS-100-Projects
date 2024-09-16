@@ -1,2 +1,3 @@
 # html-css_100_project
-I  just learning Html/css so i make some small project that's the reason i create this repository.
+I  just learning HTML/CSS so I made some small projects regularly that's the reason I created this repository. I will also upload 100 projects in 100 days.
+
