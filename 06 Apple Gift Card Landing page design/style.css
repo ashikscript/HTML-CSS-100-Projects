@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+  --purple500: #281154;
+  --purple300: #270082;
+  --purple600: #1b0058;
+  --body: #f9f6ff;
+  --max-width: 1200px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  line-height: 1.4;
+  scroll-behavior: smooth;
+}
+header {
+  background-color: var(--purple300);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow:  5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 22px;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+.logo {
+  font-size: 32px;
+  color: #fff;
+  font-weight: 600;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  margin-left: 40px;
+  border-bottom: 2px solid transparent;
+  transition: 0.4s;
+}
+nav ul li:hover {
+  border-bottom: 2px solid #fff;
+}
+.hero_section {
+  background-image: url(image/hero_image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: grid;
+  color: #fff;
+  place-items: center;
+  text-align: center;
+}
+.container h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+.container h3 {
+  font-size: 28px;
+  margin-bottom: 18px;
+}
+.container p {
+  font-size: 16px;
+  text-align: justify;
+}
+.music_section {
+  padding-top: 50px;
+  background-color: var(--purple500);
+}
+.music_section .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: #fff;
+}
+.ipad_iphone_image{
+  margin-top: -400px;
+  position: relative;
+  top: 400px;
+}
+.music_section .container h2 {
+  font-size: 30px;
+}
+.music_section .container span {
+  font-size: 35px;
+}
+.music_section .container h3 {
+  font-size: 25px;
+}
+.music_section .container  h4 {
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+}
+.primary_btn {
+  background-color: red;
+  font-size: 16px;
+  padding: 8px 18px;
+  font-weight: 200;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: 0.25s;
+}
+.primary_btn:hover {
+  opacity: 0.8;
+}
+.normal_text {
+  font-size: 12px;
+}
+.about_music {
+  padding-top: 500px;
+  display: grid;
+  place-items: center;
+  gap: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.about_music .container h4 {
+  font-size: 18px;
+}
+.secondary_btn {
+  background-color: #1b0058;
+  color: #fff;
+  padding: 8px 18px;
+  margin: 40px;
+  border: none;
+  cursor: pointer;
+  transition: 0.25s;
+}
+.secondary_btn:hover {
+  opacity: 0.8;
+}
+.video_section {
+  background-image: url(image/video.png);
+  min-height: 800px;
+  display: grid;
+  place-items: center;
+  color: #fff;
+  text-align: center;
+}
+.video_section  .container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: -200px;
+}
+.hero_section .video_section {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.gift_section {
+  display: flex;
+  justify-content: center;
+  margin: 100px 0;
+  gap: 50px;
+}
+.gift_content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.upper_footer {
+  background-color: var(--purple600);
+  padding: 20px;
+}
+.upper_footer .container {
+  display: flex;
+  color: #fff;
+  justify-content: space-between;
+}
+.upper_footer h4 {
+  padding-bottom: 10px;
+  border-bottom: 2px solid #fff;
+  margin-bottom: 10px;
+}
+.footer_lower {
+  background-color: var(--purple300);
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  width: 100%;
+  padding: 15px 0;
+}
